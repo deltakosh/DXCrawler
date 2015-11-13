@@ -97,4 +97,5 @@ module.exports['CSS Prefixes'] = {
     'Missing prefixes, only one whitelisted': checkPage("22.html", { passed: false }, ["transform"]),
     /* Configured Whitelisted properties (source: whitelisted-properites.json) */
     'Whitelisted padding & margin prefixes': checkPage("23.html", { passed: true }, globalWhitelistedProperties),
+    'Whitelisted selectors': checkPage("24.html", { passed: true })
 };
